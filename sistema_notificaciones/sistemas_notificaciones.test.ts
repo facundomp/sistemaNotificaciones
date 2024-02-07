@@ -108,7 +108,6 @@ test("Verifica si una alerta no expiro", () => {
   expect(sistema.alertaExpirada(alerta)).toEqual(true);
 });
 
-//10.Se pueden obtener todas las alertas no expiradas para un tema. Se informa para cada alerta si es para todos los usuarios o para uno específico. V
 test("Se obtienen todas las alertas no expiradas y ordenadas para un tema, tanto para un usuario como para todos", () => {
   const sistema = new SistemaNotificaciones();
   const tema1 = sistema.registrarTema(1, "Deportes");
