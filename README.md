@@ -3,6 +3,6 @@
 
 * Se realizo pruebas unitarias con jest, con lo que al descargar el repositorio, debemos ejecutar el siguiente comando: npm install jest
 
-* Una vez ejecutado lo anterior, debemos ejecutar las pruebas con: npx jest, esto ejecutara por consola las pruebas diseñadas y mostrara el resultado sobre el correcto funcionamiento del sistema.
+* Una vez ejecutado lo anterior, debemos ejecutar las pruebas con: npx jest, esto ejecutara por consola las pruebas diseñadas y mostrara el resultado sobre el correcto funcionamiento del sistema. Dicho test se encuentra dentro de la carpeta sistema_notificaciones
 
 * Por ultimo, la carpeta SQL, se encuentra la consulta a la consigna dada. 
